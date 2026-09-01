@@ -1,0 +1,26 @@
+cat > .gitignore << 'EOF'
+# Environnement virtuel
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+.pytest_cache/
+
+# Base de données
+*.db
+*.sqlite
+*.sqlite3
+
+# Éditeurs / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Env variables
+.env
+EOF
